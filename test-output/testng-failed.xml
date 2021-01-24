@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNG.DependsOnMethodTest">
+        <parameter name="password" value="Ritesh@1996"/>
+        <parameter name="url" value="https://my.crmnext.com/sn/app/login/login"/>
+        <parameter name="username" value="shikha.behal@crmnext.in"/>
+        <methods>
+          <include name="LogoutTest"/>
+          <include name="post_condition"/>
+          <include name="HomepageTest"/>
+          <include name="setup"/>
+          <include name="LoginTest"/>
+          <include name="pre_condition"/>
+        </methods>
+      </class> <!-- TestNG.DependsOnMethodTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
